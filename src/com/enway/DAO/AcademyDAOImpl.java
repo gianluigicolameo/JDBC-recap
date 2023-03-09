@@ -6,7 +6,6 @@ import java.sql.SQLException;
 
 import com.enway.DTO.AcademyDTO;
 import com.enway.VO.AcademyVO;
-import com.enway.VO.UtenteVO;
 import com.enway.connection.ConnectionManager;
 
 public class AcademyDAOImpl implements AcademyDAO{
