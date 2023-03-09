@@ -55,7 +55,8 @@ public class UtenteDAOImpl implements utenteDAO{
 				utenteVO= new UtenteVO(rs.getInt("id"),
 							rs.getString("first_name"), 
 							rs.getString("last_name"), 
-							rs.getInt(0));
+							rs.getInt("age"));
+				System.out.println(utenteVO.toString());
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
